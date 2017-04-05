@@ -521,6 +521,14 @@
                                     <action selector="Button50:" destination="Rtr-Mw-Q7W" eventType="touchUpInside" id="1Fh-wZ-hWh"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="chf-gP-azx">
+                                <rect key="frame" x="16" y="20" width="71" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="End Game"/>
+                                <connections>
+                                    <segue destination="xxK-ja-MUs" kind="show" id="0xS-EH-pxh"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -537,7 +545,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L1W-D6-tVV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2420" y="178.56071964017991"/>
+            <point key="canvasLocation" x="2385" y="179"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="H1n-iq-iWh">
