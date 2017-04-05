@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4E2962201E89C6EA00DE1E07"
+               BlueprintIdentifier = "4E245E471E945C3D00DBC8AC"
                BuildableName = "Darts.app"
                BlueprintName = "Darts"
                ReferencedContainer = "container:Darts.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4E2962201E89C6EA00DE1E07"
+            BlueprintIdentifier = "4E245E471E945C3D00DBC8AC"
             BuildableName = "Darts.app"
             BlueprintName = "Darts"
             ReferencedContainer = "container:Darts.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4E2962201E89C6EA00DE1E07"
+            BlueprintIdentifier = "4E245E471E945C3D00DBC8AC"
             BuildableName = "Darts.app"
             BlueprintName = "Darts"
             ReferencedContainer = "container:Darts.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4E2962201E89C6EA00DE1E07"
+            BlueprintIdentifier = "4E245E471E945C3D00DBC8AC"
             BuildableName = "Darts.app"
             BlueprintName = "Darts"
             ReferencedContainer = "container:Darts.xcodeproj">

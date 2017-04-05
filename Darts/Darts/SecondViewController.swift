@@ -1,14 +1,14 @@
 //
-//  ViewController.swift
+//  SecondViewController.swift
 //  Darts
 //
-//  Created by Dakota Raymond on 3/27/17.
+//  Created by Dakota Raymond on 4/4/17.
 //  Copyright © 2017 Dakota Raymond. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class SecondViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
