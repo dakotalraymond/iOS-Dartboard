@@ -15,6 +15,7 @@
 		4E245E581E945C3D00DBC8AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E245E561E945C3D00DBC8AC /* LaunchScreen.storyboard */; };
 		4E245E601E94855C00DBC8AC /* 501View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E245E5F1E94855C00DBC8AC /* 501View.swift */; };
 		4E245E621E949FC600DBC8AC /* 501SelectPlayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E245E611E949FC600DBC8AC /* 501SelectPlayers.swift */; };
+		4E540E6A1EA72DF900AC8EFF /* HighScores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E540E691EA72DF900AC8EFF /* HighScores.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		4E245E591E945C3D00DBC8AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E245E5F1E94855C00DBC8AC /* 501View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 501View.swift; sourceTree = "<group>"; };
 		4E245E611E949FC600DBC8AC /* 501SelectPlayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 501SelectPlayers.swift; sourceTree = "<group>"; };
+		4E540E691EA72DF900AC8EFF /* HighScores.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighScores.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				4E245E4D1E945C3D00DBC8AC /* FirstViewController.swift */,
 				4E245E4F1E945C3D00DBC8AC /* SecondViewController.swift */,
 				4E245E511E945C3D00DBC8AC /* Main.storyboard */,
+				4E540E691EA72DF900AC8EFF /* HighScores.swift */,
 				4E245E611E949FC600DBC8AC /* 501SelectPlayers.swift */,
 				4E245E5F1E94855C00DBC8AC /* 501View.swift */,
 				4E245E541E945C3D00DBC8AC /* Assets.xcassets */,
@@ -149,6 +152,7 @@
 				4E245E601E94855C00DBC8AC /* 501View.swift in Sources */,
 				4E245E4C1E945C3D00DBC8AC /* AppDelegate.swift in Sources */,
 				4E245E621E949FC600DBC8AC /* 501SelectPlayers.swift in Sources */,
+				4E540E6A1EA72DF900AC8EFF /* HighScores.swift in Sources */,
 				4E245E4E1E945C3D00DBC8AC /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +315,7 @@
 				4E245E5E1E945C3D00DBC8AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -145,6 +145,17 @@ class _01View: UIViewController {
             updateScores()
         case 2:
             player2Score -= currentScore
+            if (player2Score <= 0) {
+                let alert = UIAlertController(title: "Congratulations!", message: player2Name + " wins!", preferredStyle: UIAlertControllerStyle.alert)
+                let action = UIAlertAction(title: "Close", style: .default) { (action) -> Void in
+                    let nextView = self.storyboard?.instantiateViewController(withIdentifier: "FirstViewController")
+                    self.present(nextView!, animated: true, completion: nil)
+                }
+                alert.addAction(action)
+                
+                self.present(alert, animated: true, completion: nil)
+                
+            }
             currentPlayer += 1
             TurnView.text = player3Name + "'s Turn"
             updateScores()
@@ -182,6 +193,9 @@ class _01View: UIViewController {
         Player5View.text = player5Name + ": " + String(player5Score)
         Player6View.text = player6Name + ": " + String(player6Score)
     }
+
+    
+
     
     
     

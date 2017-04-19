@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--First View Controller-->
         <scene sceneID="ya7-s5-Np5">
             <objects>
-                <viewController id="xxK-ja-MUs" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FirstViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xxK-ja-MUs" customClass="FirstViewController" customModule="Darts" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CJ0-tk-QAt"/>
                         <viewControllerLayoutGuide type="bottom" id="Xfs-e6-vqZ"/>
@@ -526,7 +526,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="End Game"/>
                                 <connections>
-                                    <segue destination="xxK-ja-MUs" kind="show" id="0xS-EH-pxh"/>
+                                    <segue destination="xxK-ja-MUs" kind="show" identifier="backToMain2" id="0xS-EH-pxh"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -541,11 +541,40 @@
                         <outlet property="Player6View" destination="kJ4-TS-pof" id="Wu1-L0-b4U"/>
                         <outlet property="ScoreLabel" destination="EHP-B3-fYp" id="P0h-w1-7di"/>
                         <outlet property="TurnView" destination="HmT-fO-yUw" id="tTH-Ym-Hix"/>
+                        <segue destination="xxK-ja-MUs" kind="show" identifier="backToMain" id="bdf-eJ-z8Q"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L1W-D6-tVV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2385" y="179"/>
+            <point key="canvasLocation" x="2384.8000000000002" y="178.56071964017991"/>
+        </scene>
+        <!--High Scores-->
+        <scene sceneID="B6H-xL-gbf">
+            <objects>
+                <viewController storyboardIdentifier="HighScores" useStoryboardIdentifierAsRestorationIdentifier="YES" id="z4a-ku-nqk" customClass="HighScores" customModule="Darts" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="95K-V3-nVN"/>
+                        <viewControllerLayoutGuide type="bottom" id="IHA-lT-CpF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wIG-P6-4MQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h7L-F5-tya">
+                                <rect key="frame" x="143" y="243" width="89" height="9"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back to Main"/>
+                                <connections>
+                                    <segue destination="xxK-ja-MUs" kind="show" id="0Qw-NI-j1J"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nCb-Xe-DRU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3317.5999999999999" y="180.35982008995504"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="H1n-iq-iWh">
@@ -566,4 +595,7 @@
             <point key="canvasLocation" x="828" y="-690"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="bdf-eJ-z8Q"/>
+    </inferredMetricsTieBreakers>
 </document>
