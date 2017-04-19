@@ -39,7 +39,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ae6-Zs-3Zh">
                                 <rect key="frame" x="133" y="318" width="108" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Credits"/>
+                                <state key="normal" title="Game Rules"/>
                                 <connections>
                                     <segue destination="JSY-WV-TQl" kind="show" id="RT0-6L-wBt"/>
                                 </connections>
