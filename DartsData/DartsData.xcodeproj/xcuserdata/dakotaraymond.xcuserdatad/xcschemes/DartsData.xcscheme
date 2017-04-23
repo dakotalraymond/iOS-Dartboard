@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4E245E471E945C3D00DBC8AC"
-               BuildableName = "Darts.app"
-               BlueprintName = "Darts"
-               ReferencedContainer = "container:Darts.xcodeproj">
+               BlueprintIdentifier = "4E412C861EABE29E00AB91E7"
+               BuildableName = "DartsData.app"
+               BlueprintName = "DartsData"
+               ReferencedContainer = "container:DartsData.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4E245E471E945C3D00DBC8AC"
-            BuildableName = "Darts.app"
-            BlueprintName = "Darts"
-            ReferencedContainer = "container:Darts.xcodeproj">
+            BlueprintIdentifier = "4E412C861EABE29E00AB91E7"
+            BuildableName = "DartsData.app"
+            BlueprintName = "DartsData"
+            ReferencedContainer = "container:DartsData.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4E245E471E945C3D00DBC8AC"
-            BuildableName = "Darts.app"
-            BlueprintName = "Darts"
-            ReferencedContainer = "container:Darts.xcodeproj">
+            BlueprintIdentifier = "4E412C861EABE29E00AB91E7"
+            BuildableName = "DartsData.app"
+            BlueprintName = "DartsData"
+            ReferencedContainer = "container:DartsData.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4E245E471E945C3D00DBC8AC"
-            BuildableName = "Darts.app"
-            BlueprintName = "Darts"
-            ReferencedContainer = "container:Darts.xcodeproj">
+            BlueprintIdentifier = "4E412C861EABE29E00AB91E7"
+            BuildableName = "DartsData.app"
+            BlueprintName = "DartsData"
+            ReferencedContainer = "container:DartsData.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

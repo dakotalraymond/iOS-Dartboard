@@ -1,14 +1,15 @@
 //
-//  501SelectPlayers.swift
-//  Darts
+//  SelectPlayers301.swift
+//  DartsData
 //
-//  Created by Dakota Raymond on 4/4/17.
+//  Created by Dakota Raymond on 4/23/17.
 //  Copyright © 2017 Dakota Raymond. All rights reserved.
 //
 
 import UIKit
 
-class _01SelectPlayers: UIViewController {
+class SelectPlayers301: UIViewController {
+    
     @IBOutlet weak var Player1Name: UITextField!
     @IBOutlet weak var Player2Name: UITextField!
     @IBOutlet weak var Player3Name: UITextField!
@@ -18,7 +19,6 @@ class _01SelectPlayers: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
 
@@ -29,10 +29,10 @@ class _01SelectPlayers: UIViewController {
     
 
     // MARK: - Navigation
-
+    
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let newView = segue.destination as! _01View
+        let newView = segue.destination as! View301
         newView.player1Name = Player1Name.text!
         newView.player2Name = Player2Name.text!
         newView.player3Name = Player3Name.text!

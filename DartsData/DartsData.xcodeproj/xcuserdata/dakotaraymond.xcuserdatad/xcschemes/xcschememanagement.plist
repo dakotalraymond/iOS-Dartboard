@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Darts.xcscheme</key>
+		<key>DartsData.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4E245E471E945C3D00DBC8AC</key>
+		<key>4E412C861EABE29E00AB91E7</key>
 		<dict>
 			<key>primary</key>
 			<true/>

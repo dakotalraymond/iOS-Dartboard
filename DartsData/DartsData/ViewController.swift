@@ -1,14 +1,14 @@
 //
-//  SecondViewController.swift
-//  Darts
+//  ViewController.swift
+//  DartsData
 //
-//  Created by Dakota Raymond on 4/4/17.
+//  Created by Dakota Raymond on 4/22/17.
 //  Copyright © 2017 Dakota Raymond. All rights reserved.
 //
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +19,6 @@ class SecondViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 
 }
 
