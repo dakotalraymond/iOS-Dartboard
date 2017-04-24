@@ -11,7 +11,11 @@ import UIKit
 class HIghScoreView: UIViewController {
     @IBOutlet weak var Name301: UILabel!
     @IBOutlet weak var Score301: UILabel!
-
+    @IBOutlet weak var Name501: UILabel!
+    @IBOutlet weak var Score501: UILabel!
+    @IBOutlet weak var Name701: UILabel!
+    @IBOutlet weak var Score701: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         updateHighScores()
@@ -23,27 +27,22 @@ class HIghScoreView: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func StoringButton(_ sender: Any) {
-        let highScore = HighScoreClass()
-        highScore.game = "301"
-        highScore.name = "New"
-        highScore.score = 300
-        HighScoreData.save(highscore: highScore, context: Store.sharedMainContext())
-    }
-    
     func updateHighScores() {
-        var score301 = HighScoreData.fetchGame(in: Store.sharedMainContext(), game: "301")
+        let score301 = HighScoreData.fetchGame(in: Store.sharedMainContext(), game: "301")
+        let score501 = HighScoreData.fetchGame(in: Store.sharedMainContext(), game: "501")
+        let score701 = HighScoreData.fetchGame(in: Store.sharedMainContext(), game: "701")
         Name301.text = score301.name
         Score301.text = String(score301.score)
+        Name501.text = score501.name
+        Score501.text = String(score501.score)
+        Name701.text = score701.name
+        Score701.text = String(score701.score)
     }
     
-    @IBAction func RetrieveButton(_ sender: Any) {
-        let result = HighScoreData.fetchGame(in: Store.sharedMainContext(), game: "301")
-        print(result.name)
-        
-    }
     @IBAction func DeleteButton(_ sender: UIButton) {
         HighScoreData.deleteGame(context: Store.sharedMainContext(), game: "301")
+        HighScoreData.deleteGame(context: Store.sharedMainContext(), game: "501")
+        HighScoreData.deleteGame(context: Store.sharedMainContext(), game: "701")
         updateHighScores()
         
     }
